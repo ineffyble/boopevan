@@ -1,0 +1,1 @@
+This project based off material-ui-webpack-example by callemall. Released under MIT license as per original project.
