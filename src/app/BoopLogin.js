@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Chip from 'material-ui/Chip';
 import {indigo500, indigo200} from 'material-ui/styles/colors'
+import MediaQuery from 'react-responsive';
 
 var BoopLogin = React.createClass({
 
@@ -58,7 +59,12 @@ var BoopLogin = React.createClass({
 	render: function() {
 		return (
 				<Chip onTouchTap={this.getTheBooper} style={this.boopLoginStyle} backgroundColor={this.state.loggedIn ? indigo200 : indigo500} labelColor="white">
-					{this.state.loggedIn ? 'Logged in as ' + this.state.name : 'Login with Facebook'}
+					<MediaQuery minWidth={961}>
+						{this.state.loggedIn ? 'Logged in as ' + this.state.name : 'Login with Facebook'}
+					</MediaQuery>
+					<MediaQuery maxWidth={960}>
+						{this.state.loggedIn ? this.state.name : 'Login'}
+					</MediaQuery>
 				</Chip>
 		)
 	}
