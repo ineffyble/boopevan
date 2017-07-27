@@ -4,6 +4,13 @@
   },
   "hosting": {
     "public": "build",
+    "redirects": [
+      {
+        "source": "/JenniferAndThePopcorn",
+        "destination": "https://drive.google.com/drive/folders/0Bx47VsCqXYKUWFlEUlVKQi1mdDQ?usp=sharing",
+        "type": 301
+      }
+    ],
     "rewrites": [
       {
         "source": "**",
