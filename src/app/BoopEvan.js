@@ -15,6 +15,7 @@ import BoopAlert  from './BoopAlert'
 import BoopSound  from './BoopSound'
 import BoopFeed   from './BoopFeed'
 import BoopShare  from './BoopShare'
+import BoopMerch  from './BoopMerch'
 
 var BoopEvan = React.createClass({
 
@@ -32,7 +33,8 @@ var BoopEvan = React.createClass({
   getInitialState: function() {
     return {
       booped: false,
-      booping: false
+      booping: false,
+      buyMerch: true
     }
   },
 
@@ -47,6 +49,12 @@ var BoopEvan = React.createClass({
     this.setState({
       booping: false,
     });
+  },
+
+  noMoreMerch: function() {
+    this.setState({
+      buyMerch: false
+    })
   },
 
   render: function() {
