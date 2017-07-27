@@ -64,7 +64,7 @@ var BoopFeed = React.createClass({
 			<div style={this.boopFeedStyle}>
 				<BoopLogin returnBooper={this.addBooper} />
 
-				{this.state.boopers.slice(0).reverse().map(function(booper, i) {
+				{this.state.boopers.slice(0).reverse().slice(0, 20).map(function(booper, i) {
 					return <Booper imageUrl={booper.imageUrl} name={booper.name} key={i} />
 				})}
 			</div>
