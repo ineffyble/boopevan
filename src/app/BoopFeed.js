@@ -40,7 +40,7 @@ var BoopFeed = React.createClass({
 	},
 
 	componentWillMount: function() {
-		this.bindAsArray(Firebase.database().ref('boopers'), 'boopers');
+		this.bindAsArray(Firebase.database().ref('boopers').limitToLast(20), 'boopers');
 	},
 
 	componentDidUpdate: function() {
