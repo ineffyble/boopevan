@@ -21,7 +21,7 @@
     "html-webpack-plugin": "^2.30.1",
     "transfer-webpack-plugin": "^0.1.4",
     "webpack": "^1.13.3",
-    "webpack-dev-server": "^1.16.2"
+    "webpack-dev-server": "^2.7.1"
   },
   "dependencies": {
     "firebase": "^4.3.0",
