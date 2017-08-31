@@ -14,6 +14,11 @@
         "source": "/store",
         "destination": "https://www.redbubble.com/people/ineffyble/works/27477029-boopevan-icon",
         "type": 301
+      },
+      {
+        "source": "/extension",
+        "destination": "https://chrome.google.com/webstore/detail/boop-reacts-only/jadjcgmkfpbcmcagfglnlidclahmoiaf",
+        "type": 301
       }
     ],
     "rewrites": [
