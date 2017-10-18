@@ -29,7 +29,7 @@
     "react": "^15.4.1",
     "react-dom": "^15.4.1",
     "react-facebook-login": "^3.4.3",
-    "react-responsive": "^1.2.6",
+    "react-responsive": "^3.0.0",
     "react-tap-event-plugin": "^2.0.1",
     "reactfire": "^1.0.0"
   }
