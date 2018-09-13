@@ -27,7 +27,7 @@
     "firebase": "^5.4.2",
     "material-ui": "^0.20.2",
     "react": "^16.5.0",
-    "react-dom": "^16.5.0",
+    "react-dom": "^16.5.1",
     "react-facebook-login": "^4.1.0",
     "react-responsive": "^5.0.0",
     "react-tap-event-plugin": "^3.0.3",
