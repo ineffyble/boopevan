@@ -4286,9 +4286,9 @@ react-facebook-login@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/react-facebook-login/-/react-facebook-login-4.1.1.tgz#005121236a6ac0dee02099976fb1a3265f9d633e"
 
-react-responsive@^6.1.2:
-  version "6.1.2"
-  resolved "https://registry.yarnpkg.com/react-responsive/-/react-responsive-6.1.2.tgz#b9b9cc3ee35f37e80cb036f1c9038ef73aec920b"
+react-responsive@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/react-responsive/-/react-responsive-7.0.0.tgz#0abde0ccbb50e5e8407e3d61dd4696447e7ebd3c"
   dependencies:
     hyphenate-style-name "^1.0.0"
     matchmediaquery "^0.3.0"
