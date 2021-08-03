@@ -20,7 +20,7 @@
     "babel-preset-stage-2": "^6.18.0",
     "html-webpack-plugin": "^4.5.2",
     "transfer-webpack-plugin": "^0.1.4",
-    "webpack": "^4.44.2",
+    "webpack": "^4.46.0",
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
